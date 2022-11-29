@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popping',sans-serif;
+    box-sizing: border-box;
+}
+.form{
+    display : flex ;
+    justify-content: center ;
+    align-items:center ;
+    margin-top: 100px;
+    background-color: transparent;
+    background-image: url(./images/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==.jfif);
+    background-repeat:no-repeat;
+}
+.container{
+    height: 450px;
+    width: 800px;
+    box-shadow: 0px 0px 10px 2px grey ;
+    background-size: cover ;
+    background-image:url(./images/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.leftside{
+    width: 350px;
+    height: 450px; ;
+    display: flex;
+    flex-direction: column;
+    box-shadow:5px 2px 5px 2px rgb(113, 73, 73) ;
+    
+    
+}
+div.transbox {
+   
+    background-color: #6e66e0;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+.titre{
+     border-left: 4px solid gold;
+    font-size: x-large;
+    font-weight:bolder;
+    padding: 5px;
+
+    color: rgb(241, 236, 236) ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+span{
+    color: gold;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+    padding: 5PX 5px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.next{
+    color: gold;
+    
+}
+.profilepic{
+    height: 150px;
+    width: 150Px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 15px 2px  gold;
+}
+.name{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    color: white;
+}
+.rightside{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    margin: 30px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(62, 27, 136);
+}
+.googleimg{
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+.signgoogle{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px grey;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(84, 78, 78);
+    
+}
+.or{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.or>div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+    font: bolder;
+    color: rgb(129, 118, 118);
+ }
+
+ .info{display :grid;
+    grid-template-columns:40% 40% ;
+    gap:15px ;
+    justify-content:space-around;
+ }
+ input{
+    background-color: WHITE;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+ }
+ .check{
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    color: rgb(129, 118, 118);
+    display: flex;
+ }
+ .check>label>a{
+    text-decoration: none;
+    color: blueviolet;
+ }
+ .check>input{
+    color: #7e7e7e;
+    display:block;
+    margin-top:-1px;
+    margin-right:7px;
+    height:15px;
+ }
+ .final{
+    display: grid;
+    grid-template-columns:40% 13% 40%;
+    margin-top: 25px;
+    margin-left: 6%;
+ }
+ .final>button{
+   background-color: rgb(245, 8, 8);
+   border: none;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .final>.login{
+    background-color: aqua;
+ }
+ 
